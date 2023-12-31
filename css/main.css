@@ -1,5 +1,9 @@
 @import './clock.css';
 
+:root {
+    color-scheme: only light;
+}
+
 .container {
     display: grid;
     grid-auto-columns: 1fr;
