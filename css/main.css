@@ -65,12 +65,3 @@ body {
     display: grid;
     place-items: center;
 }
-
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: red;
-        padding: 2rem;
-        margin: 0;
-        font-family: 'Inter';
-    }
-  }
