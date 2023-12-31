@@ -1,3 +1,7 @@
+const lock = document.createElement('meta');
+lock.name = 'darkreader-lock';
+document.head.appendChild(lock);
+
 // Retrieve the DOM elements that'll be updated every second
 const secondsElement = document.querySelector('.second');
 const minutesElement = document.querySelector('.minute');
