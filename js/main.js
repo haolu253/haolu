@@ -2,6 +2,13 @@ const lock = document.createElement('meta');
 lock.name = 'darkreader-lock';
 document.head.appendChild(lock);
 
+if (navigator.userAgent.match(/samsung/i)) {
+    alert("Your browser (Samsung Internet) may not show this website" + 
+          "correctly. Please consider using a standards-compliant" + 
+          "browser instead. \n\n" +
+          "We recommend Firefox, Microsoft Edge, or Google Chrome.");
+}
+
 // Retrieve the DOM elements that'll be updated every second
 const secondsElement = document.querySelector('.second');
 const minutesElement = document.querySelector('.minute');
